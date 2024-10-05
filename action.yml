@@ -19,8 +19,9 @@ runs:
     - uses: actions/checkout@v4
     - uses: actions/checkout@v4
       with:
-        repository: r7kamura/bump-request
+        repository: supermomonga/bump-request
         path: bump-request
+        ref: csproj-support-demo
     - uses: denoland/setup-deno@v1
       with:
         deno-version: v1.x
